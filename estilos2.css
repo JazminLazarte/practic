@@ -71,7 +71,7 @@ height: 30px;
 }
 
 form {
-    /* Sólo para centrar el formulario a la página */
+    /* SÃ³lo para centrar el formulario a la pÃ¡gina */
     margin: 0 auto;
     height: 300px;
     /* Para ver el borde del formulario */
@@ -84,7 +84,7 @@ form div + div {
 }
 
 label {
-    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    /* Para asegurarse que todos los labels tienen el mismo tamaÃ±o y estÃ¡n alineados correctamente */
     display: inline-block;
     width: 300px;
     text-align: left;
@@ -96,7 +96,7 @@ input, textarea {
        Por defecto, las areas de texto tienen una fuente con monospace */
     font: 1em sans-serif;
 
-    /* Para darle el mismo tamaño a todos los campos de texto */
+    /* Para darle el mismo tamaÃ±o a todos los campos de texto */
     width: 200px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -105,25 +105,25 @@ input, textarea {
     border: 1px solid #999;
 }
 input:focus, textarea:focus {
-    /* Para dar un pequeño destaque en elementos activos*/
+    /* Para dar un pequeÃ±o destaque en elementos activos*/
     border-color: #000;
 }
 
 textarea {
-    /* Para alinear campos de texto multilínea con sus labels */
+    /* Para alinear campos de texto multilÃ­nea con sus labels */
     vertical-align: top;
 
     /* Para dar suficiente espacio para escribir texto */
     height: 5em;
 
-    /* Para permitir a los usuarios cambiar el tamaño de cualquier textarea verticalmente
+    /* Para permitir a los usuarios cambiar el tamaÃ±o de cualquier textarea verticalmente
         No funciona en todos los navegadores */
     resize: vertical;
 }
 
 .button {
-    /* Para posicionar los botones a la misma posición que los campos de texto */
-    padding-left: 100px; /* mismo tamaño a todos los elementos label */
+    /* Para posicionar los botones a la misma posiciÃ³n que los campos de texto */
+    padding-left: 100px; /* mismo tamaÃ±o a todos los elementos label */
 }
 button {
     /* Este margen extra representa aproximadamente el mismo espacio que el espacio
@@ -136,3 +136,15 @@ Button1 {
        entre los labels y sus campos de texto */
    margin-left: 20em;
 }
+
+}
+.logo{
+    float: right;
+    padding: 10px;
+}
+.logo img{
+    width: 40px;
+    height: 35px;
+}
+
+
